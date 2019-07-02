@@ -1,13 +1,13 @@
 #slotmachine{
-    width:500px;
+    width:540px;
     background-color: wheat;
     height: 0px;
     margin:150px auto;
 }
 
 .slot{
-    width: 32.2%;
-    height: 99px;
+    width: 18.2%;
+    height: 120px;
     background-color: #3498DB;
     display: inline-block;
     margin: 0px;
@@ -36,7 +36,7 @@
     text-decoration: none;
     display: block;
     font-size: 40px;
-    margin: 4px auto;
+    margin: 54px auto;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
