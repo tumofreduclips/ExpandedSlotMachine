@@ -1,5 +1,7 @@
 {
     "slot1":["Mars","Paris","Atlantide","Antarctique","Los Angeles","Shanghai","Caraïbes"],
     "slot2":["2019","1999","200 BC","Âge de pierre","18ème siècle","2301"],
-    "slot3":["Horreur","Science-fiction","Histoire","Drame","Romance","Comédie","Thriller","Aventure","Action"]
+    "slot3":["Horreur","Science-fiction","Histoire","Drame","Romance","Comédie","Thriller","Aventure","Action"],
+    "slot4":["Test"],
+    "slot5":["Test"]
 }
