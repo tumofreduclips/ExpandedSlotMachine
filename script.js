@@ -1,7 +1,7 @@
 document.getElementById("reload").addEventListener("click",app)
 
 let conf = location.href.split("#")
-let lang = (conf[1]) ?  conf[1] : "en";
+let lang = (conf[1]) ?  conf[1] : "fr";
 let topic = (conf[2]) ?  conf[2] : "Screenplay";
 let dataURL =  `l18n/${topic}/strings_${lang}.json`;
 
@@ -16,6 +16,8 @@ function app() {
         let slot1 = new RoundArray(slotsData.slot1)
         let slot2 = new RoundArray(slotsData.slot2)
         let slot3 = new RoundArray(slotsData.slot3)
+        let slot4 = new RoundArray(slotsData.slot4)
+        let slot5 = new RoundArray(slotsData.slot5)
 
         anime({
           round: 1,
@@ -40,14 +42,34 @@ function app() {
               el.innerHTML = "<span>"+slot2.next()+"</span>";
             }
           });
+          
+        anime({
+            round: 1,
+            easing: 'easeInCubic',
+            delay:1000,
+            update: function() {
+              let el = document.querySelector('#slot3');
+              el.innerHTML = "<span>"+slot3.next()+"</span>";
+            }
+          });
+                  
+          anime({
+            round: 1,
+            easing: 'easeInCubic',
+            delay:1000,
+            update: function() {
+              let el = document.querySelector('#slot4');
+              el.innerHTML = "<span>"+slot4.next()+"</span>";
+            }
+          });
 
         anime({
             round: 1,
             easing: 'easeInCubic',
             delay:1800,
             update: function() {
-              let el = document.querySelector('#slot3');
-              el.innerHTML = "<span>"+slot3.next()+"</span>";
+              let el = document.querySelector('#slot5');
+              el.innerHTML = "<span>"+slot5.next()+"</span>";
             }
         });
 
