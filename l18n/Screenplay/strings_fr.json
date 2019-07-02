@@ -1,7 +1,7 @@
 {
-    "slot1":["Mars","Paris","Atlantide","Antarctique","Los Angeles","Shanghai","Caraïbes"],
-    "slot2":["2019","1999","200 BC","Âge de pierre","18ème siècle","2301"],
-    "slot3":["Horreur","Science-fiction","Histoire","Drame","Romance","Comédie","Thriller","Aventure","Action"],
-    "slot4":["Test"],
+    "slot1":["Une salle d’attente de dentiste","Sur un escalator","Un abribus","Châtelet","Une plage","Une ruelle sombre","Une vieille maison de campagne","Un laboratoire","Une forêt tropicale","Une rame de métro","Un cimetière","Un hôtel","Un collège/lycée","Une bijouterie","La planète mars","Une ruelle sombre","Un réfectoire","Des toilettes","Un fastfood","Un ascenseur bloqué"],
+    "slot2":["Un rappeur de 40 ans en fin de carrière","Une sprinteuse","Un enfant qui parle comme un adulte","Une adolescente asthmatique","Une agricultrice","Un enfant de 10 ans la jambe dans le plâtre","Une star de télé-réalité","Un américain en France","Une mamie","Un romantique timide","Un mafieux allergique aux chats","Un facteur toujours en retard","Une personne qui perd toujours la mémoire","Un croque mort","Un philosophe qui bégaie","Un vampire qui a peur du noir","Un insomniaque","Une chirurgienne aveugle","Un tueur en série émotif","Johnny"],
+    "slot3":["Tombée de la nuit","Au petit matin","Pendant la sieste","Aux douze coups de minuit","L’heure du goûter","Une nuit de pleine lune","10h10","12h30","31 décembre 2999","Automne","Printemps","Été","Hiver","Vacances d’été"],
+    "slot4":["Une corde de montagne","Une brosse à dent","Un chromebook","Un lasso de cowboy","Une arbalete","Une boussole","Une clé USB","Une chaise à roulette","Une bouilloire","Une boîte d’allumettes","Un cutter","Des serviettes hygiénique","Un paquet de mouchoir","Une agrafeuse en or","Un rouleau de scotch","Une lampe qui fait apparaître un géni","Une canette de soda","Un volume d’encyclopédie","Un smartphone","Une canne à pêche"],
     "slot5":["Test"]
 }
