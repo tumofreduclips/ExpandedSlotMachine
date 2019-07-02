@@ -31,8 +31,9 @@
 .button {
     background-color: #4CAF50; 
     border: none;
-    padding: 1px 28px;
+    padding: 1px 8px;
     text-align: center;
+    float: right;
     text-decoration: none;
     display: block;
     font-size: 40px;
